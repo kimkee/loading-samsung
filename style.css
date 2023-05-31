@@ -4,15 +4,15 @@
 @media (prefers-color-scheme: light) {
     body{background-color: #ffffff;}
 }
-.ui-loading-galaxy{ position: fixed; left: 0; right: 0; top: 0; bottom: 0; z-index: 2000; background: transparent; } 
-.ui-loading-galaxy>.bx{animation: rotate 1.2s linear infinite;display: flex;position: relative;width: 40px;height: 40px;top: 50%;left: 50%;margin-top: -20px;margin-left: -20px;}
-.ui-loading-galaxy>.bx .dot{width: 40px;height: 40px;position: absolute;left: 0;top: 0;}
-.ui-loading-galaxy>.bx .dot::before{animation: bounce 0.5s alternate infinite; position: absolute; left: 50%; top: 50%; margin: -4px 0px 0px -4px; width: 10px; height: 10px; background: #0481ff; border-radius: 10px; display: inline-flex; content:"";}
-.ui-loading-galaxy>.bx .dot:first-child::before {background: #00d593;}
-.ui-loading-galaxy>.bx .dot:nth-child(1){transform: rotate(0deg);}
-.ui-loading-galaxy>.bx .dot:nth-child(2){transform: rotate(90deg);}
-.ui-loading-galaxy>.bx .dot:nth-child(3){transform: rotate(180deg);}
-.ui-loading-galaxy>.bx .dot:nth-child(4){transform: rotate(270deg);}
+.ui-load-glx{ position: fixed; left: 0; right: 0; top: 0; bottom: 0; z-index: 2000; background: transparent; } 
+.ui-load-glx>.bx{animation: rotate 1.2s linear infinite;display: flex;position: relative;width: 40px;height: 40px;top: 50%;left: 50%;margin-top: -20px;margin-left: -20px;}
+.ui-load-glx>.bx .dot{width: 40px;height: 40px;position: absolute;left: 0;top: 0;}
+.ui-load-glx>.bx .dot::before{animation: bounce 0.5s alternate infinite; position: absolute; left: 50%; top: 50%; margin: -4px 0px 0px -4px; width: 10px; height: 10px; background: #0481ff; border-radius: 10px; display: inline-flex; content:"";}
+.ui-load-glx>.bx .dot:first-child::before {background: #00d593;}
+.ui-load-glx>.bx .dot:nth-child(1){transform: rotate(0deg);}
+.ui-load-glx>.bx .dot:nth-child(2){transform: rotate(90deg);}
+.ui-load-glx>.bx .dot:nth-child(3){transform: rotate(180deg);}
+.ui-load-glx>.bx .dot:nth-child(4){transform: rotate(270deg);}
 @keyframes bounce {
     0%{ 	transform: translateY(8px) ; }
     20%{ 	transform: translateY(8px) ; }
