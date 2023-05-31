@@ -1,4 +1,9 @@
-body{background-color: #252525;}
+@media (prefers-color-scheme: dark) {
+	body{background-color: #252525;}
+}
+@media (prefers-color-scheme: light) {
+	body{background-color: #ffffff;}
+}
 .ui-loading-galaxy{ position: fixed; left: 0; right: 0; top: 0; bottom: 0; z-index: 2000; background: transparent; } 
 .ui-loading-galaxy>.bx{animation: rotate 1.2s linear infinite;display: flex;position: relative;width: 40px;height: 40px;top: 50%;left: 50%;margin-top: -20px;margin-left: -20px;}
 .ui-loading-galaxy>.bx .dot{width: 40px;height: 40px;position: absolute;left: 0;top: 0;}
