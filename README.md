@@ -5,4 +5,4 @@ Gallexy loading animation
 
 https://kimkee.github.io/loading-samsung/
 
-<img src="./img_1.png">
+<img src="./img_1.png" width="375">
