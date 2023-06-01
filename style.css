@@ -23,10 +23,10 @@
 .ui-load-glx.full>.gbx{transform: scale(2.5);position: absolute;left: 50%;top: 50%;margin: -9px 0px 0px -9px;}
 .ui-load-glx.full>.gbx .bx{}
 @keyframes bounce {
-    0%{ 	transform: translateY(20%) ; }
-    30%{ 	transform: translateY(30%) ; }
-    100%{ 	transform: translateY(100%); }
+    0%{   transform: translateY(20%) ; }
+    30%{  transform: translateY(30%) ; }
+    100%{ transform: translateY(100%); }
 }
 @keyframes rotate {
-    0%{		transform: rotate(-360deg); }
+    0%{ transform: rotate(-360deg); }
 }
